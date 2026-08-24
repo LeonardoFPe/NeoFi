@@ -139,4 +139,23 @@ main{
   color: var(--color-white);
 }
 
+.section-partners{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--color-gray4);
+  padding: 40px;
+}
 
+.section-partners h2{
+  display: flex;
+  justify-content: center;
+  color: var(--color-gray1);
+  font-size: var(--font-text1);
+}
+
+.logos-partners{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
