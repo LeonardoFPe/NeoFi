@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+:root{
+  /* CORES */
+
+  --color-green: #9DFF3A;
+  --color-gradient: #75A941;
+  --color-white: #FAFAFA;
+  --color-gray1: #999999;
+  --color-gray2: #4D4D4D;
+  --color-gray3: #2E2E2E;
+  --color-gray4: #0F0F0F;
+
+  /* FONTES */
+  --font-body: "Alexandria", sans-serif;
+  --font-title1: 64px;
+  --font-tittle2: 48px;
+  --font-tittle3: 40px;
+  --font-subtitle: 20px;
+  --font-button: 18px;
+  --font-text1: 16px;
+  --font-text2: 14px;
+  --font-caption: 12px;
+}
