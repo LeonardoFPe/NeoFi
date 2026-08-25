@@ -79,7 +79,7 @@ main{
   gap: 20px;
 }
 
-.future-main {
+.span-active {
     display: inline-flex !important;
     align-items: center !important;
     width: fit-content !important;
@@ -89,7 +89,7 @@ main{
     border-radius: 24px;
 }
 
-.future-main p {
+.span-active p {
   width: auto !important;
 }
 
@@ -120,6 +120,12 @@ main{
   color: var(--color-black);
   font-size: var(--font-button);
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn-started:hover{
+  background-color: #6bc017;
+  transform: scale(1.03);
 }
 
 .btn-watch{
@@ -131,6 +137,12 @@ main{
   padding: 14px 24px;
   font-size: var(--font-button);
   border-radius: 40px;
+  transition: 0.5s;
+}
+
+.btn-watch:hover{
+  background-color: rgb(29, 29, 29);
+  transform: scale(1.03);
 }
 
 .btn-watch p{
@@ -159,3 +171,28 @@ main{
   justify-content: center;
   gap: 50px;
 }
+
+.section-features{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px 0px;
+  background-color: var(--color-black);
+}
+
+.section-features-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-features-content p{
+  font-size: var(--font-button);
+  color: var(--color-gray1);
+  font-family: var(--font-tittle);
+  width: 572px;
+  font-weight: 140%;
+}
+
+
+
