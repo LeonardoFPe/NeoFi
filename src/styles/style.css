@@ -382,3 +382,33 @@ main{
 .img-faq-card:hover{
   transform: scale(1.03);
 }
+
+.section-revolucionary{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--color-black);
+  padding: 60px 0px;
+}
+
+.section-revolucionary h2{
+  width: 878px;
+}
+
+.section-revolucionary p{
+  width: 644px;
+}
+
+.btn-get{
+  background-color: var(--color-green);
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: var(--font-button);
+  color: var(--color-black);
+  transition: 0.5s;
+}
+
+.btn-get:hover{
+  background-color: #6bc017;
+}
